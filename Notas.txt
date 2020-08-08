@@ -1,0 +1,4 @@
+HTML tiene dos tipos de etiquetas
+  Contenedoras y de contenido
+
+Tipos de Display en CSS
