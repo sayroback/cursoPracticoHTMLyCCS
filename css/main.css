@@ -50,3 +50,17 @@ nav .nav-rigth-section img {
   height: 32px;
   width: 32px;
 }
+
+main {
+  margin-top: 150px;
+  text-align: center;
+}
+
+main .main-logo {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+main .main-logo img {
+  width: 300px;
+}
