@@ -79,7 +79,6 @@ Selectos global * (asterisco)
 
 ¿De qué forma podría posicionar con CSS el contenido que esté dentro de algún 
 elemento de HTML hacia algún extremo?
-Display: flex; justify-content: right;
 
 
 ¿Para qué nos ayudan las clases y IDs en CSS?
