@@ -1,4 +1,109 @@
 HTML tiene dos tipos de etiquetas
   Contenedoras y de contenido
 
+Un archivo CSS (Cascading Style Sheets) = Hoja de Estilos en Cascada 
+//Estilo es linea
+Se pueden agregar estilos directamente en el archivo HTML a esto de le llama
+
+Los selectores
+Un selector universal es *(asterisco), los atributos que se le otorgen afectaran a todo el Body
+ºSelectores de elementos, los cuales seleccionan todos los elementos de un tipo dado en los 
+documentos HTML (header, main, body, footer, etc.)
+ºEl ID es un identificador unico para un elemento. En CSS se seleccionan con #ID.
+  //No deberemos repetir nombres de ID
+ºLas Clases nos permiten crear estilos que podemos reutilizar en miltiples elementos.
+ºSelector de pseudoclase: Los elementos especificados, pero solo cuando esté en el estado 
+especificado, por ejemplo cuando el puntero esté sobre él (a:hover).
+
+Afectar a los elemento por atributos. 
+se escribe:
+a [href] {
+  color: black;
+}
+En lenguage humano seria: Quiero que todos los elementos "a" que tengan el atributo src tengan
+los siguientes estilos; Color de fuente: negro. 
+
+Estructura en CSS
+
+p {
+  color: red;
+}
+
+La estructura completa es llamada Regla
+"p" seria el Selector.
+"color" una Propiedad.
+"red" el Valor de la propiedad
+
+Declaración
+Una sola regla como "color: red;" especifica a cuál de las propiedades del elemento 
+quieres dar estilo.
+
+Propiedades
+Maneras en las cuales puedes dar estilo a un elemento HTML. (En este caso, color es una 
+propiedad del elemento <p> ). En CSS, seleccionas qué propiedad quieres afectar en tu regla.
+
+Valor de la propiedad
+A la derecha de la propiedad, después de los dos puntos (:), tienes el valor de la 
+propiedad, para elegir una de las muchas posibles apariencias para una propiedad 
+determinada 
+
+Se pueden seleccionar varios elementos:
+
+p,li,h1 {
+  color: red;
+}
+
+
 Tipos de Display en CSS
+ 
+¿Cómo se le llama al patrón de elementos HTML, clases y IDs usado en CSS para agregar estilos?
+Un selector CSS se puede definir como el código que identifica a uno o varios elementos HTML 
+para aplicarle estilos de color, tamaño, separación, etc. Los selectores más comunes son 
+aquellos que se asignan a clases (class), identificadores (id) o directamente a elementos 
+HTML como por ejemplo capas (div).
+
+¿Cómo se le llama al conjunto de elementos que agregan estilos a etiquetas de HTML?
+Declaracion
+
+¿Cuál es la declaración correcta para colocar una imagen de fondo en CSS?
+background-image: url("");
+
+¿Para que nos ayuda la propiedad de "display" en CSS?
+Formalmente la propiedad display establece los tipos de visualización interna y externa de 
+un elemento. La tipo externa establece la participacion de un elemento en flow layout; la 
+tipo interna establece el layout(Diseño) de los hijos. 
+
+¿Qué elemento utilizarías en tu archivo de CSS para poder seleccionar y resetear todos 
+los estilos que genera el navegador por defecto?
+Selectos global * (asterisco)
+
+¿De qué forma podría posicionar con CSS el contenido que esté dentro de algún 
+elemento de HTML hacia algún extremo?
+Display: flex; justify-content: right;
+
+
+¿Para qué nos ayudan las clases y IDs en CSS?
+Seleccionar elementos y modificar los valores de las propiedades de sus estilos. 
+
+¿Cuál es la diferencia entre una clase y un ID de CSS?
+Un ID solo puede ser utilizado y seleccionar un elemento.
+Una clase es lo contrario, puede ser utilizada varias veces por lo tanto seleccionar
+mas de un elemento. 
+
+¿Cuál es la propiedad para agregar una sombra de fondo en CSS?
+box-shadow
+
+¿Cuál de las siguientes opciones sería una pseudoclase en CSS?
+Tipos de pseudoclases en CSS:
+Las pseudoclases, junto con los pseudoelementos, permiten aplicar un estilo a un elemento 
+no sólo en relación con el contenido del árbol de documento, sino también en relación a 
+factores externos como el historial del navegador (:visited, por ejemplo), el estado de su 
+contenido (como :checked en algunos elementos de formulario), o la posición del ratón 
+(como :hover que permite saber si el ratón está encima de un elemento o no).
+
+Sintaxis:
+selector:pseudoclase { 
+  propiedad: valor; 
+  }
+
+https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes
